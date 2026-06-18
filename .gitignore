@@ -1,0 +1,37 @@
+# ==============================================================================
+# 🚀 CrediTrust Financial — Project Git Exclusions
+# ==============================================================================
+
+# 🐍 Virtual Environments & Local Environments
+env/
+venv/
+ENV/
+.env
+.venv
+
+# 📊 Heavy Production Data Assets (CRITICAL: Do not push to GitHub)
+data/raw/*
+data/processed/*
+data/filtered_complaints.csv
+vector_store/
+
+# 🧪 Python Compiler & Runtime Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 💻 IDE Settings & Local OS System Cache
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
